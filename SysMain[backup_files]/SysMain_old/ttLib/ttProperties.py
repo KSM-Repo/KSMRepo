@@ -1,0 +1,7 @@
+_auth_mysql_dba1_username=""
+_auth_mysql_dba1_password=""
+_auth_mysql_rw1_username=""
+_auth_mysql_rw1_password=""
+_auth_mysql_r1_username=""
+_auth_mysql_r1_password=""
+_auth_mysql_cert=""

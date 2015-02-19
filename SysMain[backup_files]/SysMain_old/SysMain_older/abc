@@ -1,0 +1,20 @@
+$ORIGIN 3top.test.
+3top.test. 600 AWS ALIAS Z35SXDOTRQ7X7K awseb-e-h-awsebloa-1bvvre1iiup2-1107437871.us-east-1.elb.amazonaws.com.
+3top.test. 3600 IN MX 0 3top-com.mail.protection.outlook.com
+3top.test. 172800 IN NS ns-1078.awsdns-06.org.
+3top.test. 172800 IN NS ns-819.awsdns-38.net.
+3top.test. 172800 IN NS ns-210.awsdns-26.com.
+3top.test. 172800 IN NS ns-1946.awsdns-51.co.uk.
+3top.test. 900 IN SOA ns-1078.awsdns-06.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+fp.a.dev.aws.3top.test. 600 IN CNAME frontpage-dev-a-vejpn2gx4g.elasticbeanstalk.com
+fp-ec2-1.a.dev.aws.3top.test. 600 IN CNAME ip-10-238-235-204.ec2.internal
+fp-lb-1.a.dev.aws.3top.test. 600 IN CNAME awseb-e-t-AWSEBLoa-188RURI4CILQW-1325060614.us-east-1.elb.amazonaws.com
+fp-rds-1.a.dev.aws.3top.test. 600 IN CNAME aa132tfwscy8opz.creeolarrep6.us-east-1.rds.amazonaws.com
+mongodb.a.dev.aws.3top.test. 600 IN CNAME ip-10-179-60-194.ec2.internal
+mq.a.dev.aws.3top.test. 600 IN CNAME ip-10-144-135-223.ec2.internal
+neo4j.a.dev.aws.3top.test. 600 IN CNAME ip-10-80-18-35.ec2.internal
+search.a.dev.aws.3top.test. 600 IN CNAME ip-10-144-135-223.ec2.internal
+virtuoso.a.dev.aws.3top.test. 600 IN CNAME ip-10-63-165-44.ec2.internal
+fp.a.prod.aws.3top.test. 600 IN CNAME frontpage-prod-a-wmyztc7nsm.elasticbeanstalk.com
+fp-lb-1.a.prod.aws.3top.test. 600 IN CNAME awseb-e-m-AWSEBLoa-17EVLY8IQ8AEB-1784644027.us-east-1.elb.amazonaws.com
+fp-lb-1.b.prod.aws.3top.test. 600 AWS ALIAS Z3DZXE0Q79N41H awseb-e-h-awsebloa-1bvvre1iiup2-1107437871.us-east-1.elb.amazonaws.com.
